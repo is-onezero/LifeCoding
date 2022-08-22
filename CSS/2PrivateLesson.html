@@ -13,6 +13,13 @@
   gtag('config', 'G-PSFGW1QD1E');
 </script>
 <style>
+  #grid {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+  }
+  #article{
+    padding: 0px;
+  }
   body{
     margin: 0;
   }
@@ -31,27 +38,34 @@
     border-bottom: 1px solid gray;
     margin: 0;
   }
-  ul{
+  #grid ul{
     border-right: 1px solid gray;
     width: 110px;
     margin: 0;
-    padding: 20px;
+    padding-left: 33px;
+    padding-top: 25px;
+    padding-right: 10px;
  }
 </style>
 </head>
 
 <body>
   <h1><a href="index.html">Global Ski Academy</a></h1>
-  <ul>
-    <li><a href="1Home.html">Home</a></li>
-    <li><a href="2PrivateLesson.html" id="active">Private Lesson</a></li>
-    <li><a href="3GroupLesson.html">Group Lesson</a></li>
-    <li><a href="4TrainingCamps.html">Training Camps</a></li>
-  </ul>
-  <h2>Private Lesson</h2>
-  <p>개인레슨은 가장 빠르게 실력 향상을 시켜줍니다.
-    <br>스키 기술을 이해하고, 방법을 배우고, 완벽하게 익히는 기본기에 초점을 맞춥니다.
-    <br>문제점을 분석한 후, 부족한 부분을 향상시키고 핵심 근육을 발달시키는 방법과 그에 맞는 기술들을 학습시키고, 자신만의 스타일을 추구하며 그 스타일에 맞는 기술을 익힐 수 있도록 더 쉽게 도와줍니다.
-    <br>빠른 실력 향상을 느껴보세요 ! </p>
+  
+  <div id="grid">
+    <ul>
+      <li><a href="1Home.html">Home</a></li>
+      <li><a href="2PrivateLesson.html" id="active">Private Lesson</a></li>
+      <li><a href="3GroupLesson.html">Group Lesson</a></li>
+      <li><a href="4TrainingCamps.html">Training Camps</a></li>
+    </ul>
+    <div id="article">
+      <h2>Private Lesson</h2>
+      <p>개인레슨은 가장 빠르게 실력 향상을 시켜줍니다.
+        <br>스키 기술을 이해하고, 방법을 배우고, 완벽하게 익히는 기본기에 초점을 맞춥니다.
+        <br>문제점을 분석한 후, 부족한 부분을 향상시키고 핵심 근육을 발달시키는 방법과 그에 맞는 기술들을 학습시키고, 자신만의 스타일을 추구하며 그 스타일에 맞는 기술을 익힐 수 있도록 더 쉽게 도와줍니다.
+        <br>빠른 실력 향상을 느껴보세요 ! </p>
+    </div>
+  </div>
 </body>
 </html>
